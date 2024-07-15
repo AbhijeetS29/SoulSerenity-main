@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sign_nav_graph.xml"
+    app:startDestination="@id/signUpFragment">
+
+    <fragment
+        android:id="@+id/signUpFragment"
+        android:name="com.madhavsewasociety.soulserenity.signupandlogin.SignUpFragment"
+        android:label="SignUpFragment" />
+    <fragment
+        android:id="@+id/otpFragment"
+        android:name="com.madhavsewasociety.soulserenity.signupandlogin.OtpFragment"
+        android:label="fragment_otp"
+        tools:layout="@layout/fragment_otp" />
+    <fragment
+        android:id="@+id/selectProfile"
+        android:name="com.madhavsewasociety.soulserenity.signupandlogin.SelectProfile"
+        android:label="fragment_select_profile"
+        tools:layout="@layout/fragment_select_profile" />
+</navigation>

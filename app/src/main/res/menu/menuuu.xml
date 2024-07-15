@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/logout"
+            android:title="Logout" />
+
+        <item
+            android:id="@+id/changePassword"
+            android:icon="@drawable/password"
+            android:title="Change Password" />
+
+    <item
+            android:id="@+id/reportBug"
+            android:icon="@drawable/report"
+            android:title="Report a Bug" />
+
+    <item android:title="Contact Vivek Joshi">
+    <menu>
+        <group android:id="@+id/contactVivek">
+
+        <item
+            android:id="@+id/emailVivek"
+            android:icon="@drawable/email"
+            android:title="Email" />
+
+        <item
+            android:id="@+id/youtubeVivek"
+            android:icon="@drawable/youtube"
+            android:title="Youtube" />
+
+        <item
+            android:id="@+id/instagramvivek"
+            android:icon="@drawable/instagram"
+            android:title="Instagram" />
+
+        <item
+            android:id="@+id/facebookVivek"
+            android:icon="@drawable/facebook"
+            android:title="Facebook" />
+    </group>
+    </menu>
+</item>
+
+    <item android:title="Contact Developer">
+    <menu>
+        <group android:id="@+id/contactDeveloper">
+
+        <item
+            android:id="@+id/emailDeveloper"
+            android:icon="@drawable/email"
+            android:title="Email" />
+
+
+        <item
+            android:id="@+id/instagramDeveloper"
+            android:icon="@drawable/instagram"
+            android:title="Instagram" />
+
+
+    </group>
+    </menu>
+</item>
+
+</menu>

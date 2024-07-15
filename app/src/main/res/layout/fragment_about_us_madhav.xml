@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:background="@color/white"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:context=".homescreen.AboutUsMadhavFragment">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="@string/madhav_sewa_society"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:justificationMode="inter_word"
+                android:padding="5dp"
+                android:text="@string/madhav_sewa_society_is_a_non_governmental_organization_ngo_dedicated_to_making_a_positive_impact_on_the_lives_of_disabled_individuals_and_children_in_need_founded_with_a_vision_of_fostering_inclusivity_and_providing_educational_opportunities_the_organization_strives_to_create_a_society_where_every_person_regardless_of_their_abilities_can_lead_a_fulfilling_life" />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="3dp"
+                android:layout_marginTop="5dp"
+                android:justificationMode="inter_word"
+                android:text="@string/helping_disabled_individuals"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="230dp"
+                android:src="@drawable/help"
+                android:scaleType="fitXY"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:justificationMode="inter_word"
+                android:padding="5dp"
+                android:text="@string/madhav_sewa_society_is_committed_to_supporting_disabled_individuals_by_offering_a_range_of_services_and_initiatives_their_primary_focus_is_on_improving_the_quality_of_life_for_people_with_disabilities_through_various_means_the_organization_provides_access_to_medical_resources_rehabilitation_programs_and_assistive_devices_to_enhance_mobility_and_independence_they_also_offer_counseling_and_emotional_support_to_individuals_and_their_families_recognizing_the_importance_of_mental_well_being_in_the_overall_development_and_empowerment_of_disabled_persons" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="3dp"
+                android:layout_marginTop="5dp"
+                android:justificationMode="inter_word"
+                android:text="@string/free_tuition_classes"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="230dp"
+                android:src="@drawable/teach"
+                android:scaleType="fitXY"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:justificationMode="inter_word"
+                android:padding="5dp"
+                android:text="@string/recognizing_the_significance_of_education_in_shaping_a_bright_future_madhav_sewa_society_runs_free_tuition_classes_for_children_from_underprivileged_backgrounds_these_classes_aim_to_bridge_the_educational_gap_and_provide_equal_opportunities_for_academic_growth_qualified_and_dedicated_teachers_volunteer_their_time_to_deliver_high_quality_education_to_students_helping_them_build_a_strong_foundation_of_knowledge_and_skills" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="3dp"
+                android:layout_marginTop="5dp"
+                android:justificationMode="inter_word"
+                android:text="@string/_3_celebrating_all_festivals"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="230dp"
+                android:src="@drawable/festival"
+                android:scaleType="fitXY"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:justificationMode="inter_word"
+                android:padding="5dp"
+                android:text="@string/madhav_sewa_society_strongly_believes_in_the_spirit_of_inclusivity_and_unity_the_organization_celebrates_all_festivals_regardless_of_religious_or_cultural_backgrounds_promoting_harmony_and_respect_among_community_members_through_festive_celebrations_they_create_an_environment_that_fosters_understanding_empathy_and_appreciation_for_diversity_these_events_bring_together_individuals_from_different_walks_of_life_promoting_social_cohesion_and_spreading_joy_and_happiness_among_participants" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="3dp"
+                android:layout_marginTop="5dp"
+                android:justificationMode="inter_word"
+                android:text="@string/_5_making_a_difference_together"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="230dp"
+                android:src="@drawable/difference"
+                android:scaleType="fitXY"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginBottom="10dp"
+                android:justificationMode="inter_word"
+                android:padding="5dp"
+                android:text="@string/madhav_sewa_society_believes_that_collective_efforts_can_bring_about_significant_change_by_focusing_on_the_empowerment_of_disabled_individuals_and_providing_free_tuition_classes_to_children_they_are_building_a_strong_foundation_for_a_more_inclusive_and_educated_society_their_dedication_to_celebrate_all_festivals_promotes_unity_and_understanding_fostering_an_environment_of_harmony_and_acceptance_madhav_sewa_society_invites_everyone_to_join_hands_and_contribute_to_their_noble_cause_creating_a_brighter_future_for_all" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</layout>

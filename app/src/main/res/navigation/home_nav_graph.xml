@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_nav_graph.xml"
+    app:startDestination="@id/homeScreenFragment">
+
+    <fragment
+        android:id="@+id/homeScreenFragment"
+        android:name="com.madhavsewasociety.soulserenity.homescreen.HomeScreenFragment"
+        android:label="HomeScreenFragment" />
+    <fragment
+        android:id="@+id/mudraListFragment"
+        android:name="com.madhavsewasociety.soulserenity.mudra.MudraListFragment"
+        android:label="fragment_mudra"
+        tools:layout="@layout/fragment_mudra_list" />
+    <fragment
+        android:id="@+id/meditationFragment"
+        android:name="com.madhavsewasociety.soulserenity.meditation.MeditationFragment"
+        android:label="MeditationFragment" />
+    <fragment
+        android:id="@+id/motivationFragment"
+        android:name="com.madhavsewasociety.soulserenity.motivation.MotivationFragment"
+        android:label="MotivationFragment" />
+</navigation>
